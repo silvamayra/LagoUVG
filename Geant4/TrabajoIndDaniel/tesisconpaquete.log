@@ -1,0 +1,760 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.11.2)  23 NOV 2016 20:04
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**tesisconpaquete.tex
+(./tesisconpaquete.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 5 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./M.1.0.0.sty
+Package: M.1.0.0 
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
+\ttl@box=\box26
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen105
+\ttl@minus=\dimen106
+\ttl@toksa=\toks15
+\titlewidth=\dimen107
+\titlewidthlast=\dimen108
+\titlewidthfirst=\dimen109
+)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip54
+\bibsep=\skip55
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count89
+))
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count90
+\lst@gtempboxa=\box27
+\lst@token=\toks16
+\lst@length=\count91
+\lst@currlwidth=\dimen110
+\lst@column=\count92
+\lst@pos=\count93
+\lst@lostspace=\dimen111
+\lst@width=\dimen112
+\lst@newlines=\count94
+\lst@lineno=\count95
+\lst@maxwidth=\dimen113
+
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+\c@lstnumber=\count96
+\lst@skipnumbers=\count97
+\lst@framebox=\box28
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
+))
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
+
+(./tesisconpaquete.aux)
+\openout1 = `tesisconpaquete.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count98
+\scratchdimen=\dimen114
+\scratchbox=\box29
+\nofMPsegments=\count99
+\nofMParguments=\count100
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count101
+\MPscratchDim=\dimen115
+\MPnumerator=\count102
+\makeMPintoPDFobject=\count103
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\c@lstlisting=\count104
+
+(./tesisconpaquete.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 6.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 6.
+ [5
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
+\tf@toc=\write3
+\openout3 = `tesisconpaquete.toc'.
+
+
+[6] (./tesisconpaquete.lof [7
+
+])
+\tf@lof=\write4
+\openout4 = `tesisconpaquete.lof'.
+
+ [8] (./tesisconpaquete.lot)
+\tf@lot=\write5
+\openout5 = `tesisconpaquete.lot'.
+
+ [9
+
+] [10
+
+] [11]
+[12
+
+]
+Cap\'itulo 1.
+[1] [2
+
+]
+Cap\'itulo 2.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 45.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 45.
+ [3] [4
+
+]
+Cap\'itulo 3.
+[5] [6
+
+]
+Cap\'itulo 4.
+
+Underfull \vbox (badness 4479) has occurred while \output is active []
+
+ [7]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+
+Underfull \vbox (badness 1817) has occurred while \output is active []
+
+ [8]
+<ForbushYunior.png, id=62, 600.2425pt x 335.2525pt>
+File: ForbushYunior.png Graphic file (type png)
+ <use ForbushYunior.png>
+Package pdftex.def Info: ForbushYunior.png used on input line 82.
+(pdftex.def)             Requested size: 298.47348pt x 166.71014pt.
+
+[9 <./ForbushYunior.png>] <Cascadas.png, id=68, 797.98125pt x 525.965pt>
+File: Cascadas.png Graphic file (type png)
+
+<use Cascadas.png>
+Package pdftex.def Info: Cascadas.png used on input line 106.
+(pdftex.def)             Requested size: 298.47348pt x 196.73077pt.
+ [10 <./Cascadas.png>]
+<GeisserMuon.png, id=72, 403.5075pt x 272.01625pt>
+File: GeisserMuon.png Graphic file (type png)
+ <use GeisserMuon.png>
+Package pdftex.def Info: GeisserMuon.png used on input line 134.
+(pdftex.def)             Requested size: 298.47348pt x 201.21pt.
+
+[11 <./GeisserMuon.png>] [12]
+Cap\'itulo 5.
+[13
+
+] <Pol1.png, id=83, 353.32pt x 246.9225pt>
+File: Pol1.png Graphic file (type png)
+ <use Pol1.png>
+Package pdftex.def Info: Pol1.png used on input line 172.
+(pdftex.def)             Requested size: 213.19627pt x 148.99483pt.
+ [14 <./Pol1.png>]
+<GeometriaCherenkov.png, id=89, 385.44pt x 345.29pt>
+File: GeometriaCherenkov.png Graphic file (type png)
+
+<use GeometriaCherenkov.png>
+Package pdftex.def Info: GeometriaCherenkov.png used on input line 189.
+(pdftex.def)             Requested size: 170.55441pt x 152.78685pt.
+ [15 <./GeometriaCherenkov.png>]
+<ASOREY2015.png, id=93, 295.1025pt x 389.455pt>
+File: ASOREY2015.png Graphic file (type png)
+ <use ASOREY2015.png>
+Package pdftex.def Info: ASOREY2015.png used on input line 230.
+(pdftex.def)             Requested size: 213.19627pt x 281.36414pt.
+
+Underfull \vbox (badness 2020) has occurred while \output is active []
+
+ [16]
+<DetectorLAGO.png, id=97, 296.10625pt x 284.06125pt>
+File: DetectorLAGO.png Graphic file (type png)
+ <use DetectorLAGO.png>
+Package pdftex.def Info: DetectorLAGO.png used on input line 245.
+(pdftex.def)             Requested size: 213.19627pt x 204.52826pt.
+
+Underfull \vbox (badness 1838) has occurred while \output is active []
+
+ [17 <./ASOREY2015.png>] <Hamamatsu.png, id=103, 548.0475pt x 235.88126pt>
+File: Hamamatsu.png Graphic file (type png)
+
+<use Hamamatsu.png>
+Package pdftex.def Info: Hamamatsu.png used on input line 262.
+(pdftex.def)             Requested size: 341.11533pt x 146.82074pt.
+ [18 <./DetectorLAGO.png>]
+<PhotonisXP1802.png, id=107, 760.8425pt x 430.60875pt>
+File: PhotonisXP1802.png Graphic file (type png)
+
+<use PhotonisXP1802.png>
+Package pdftex.def Info: PhotonisXP1802.png used on input line 275.
+(pdftex.def)             Requested size: 341.11533pt x 193.06252pt.
+ [19 <./Hamamatsu.png>]
+<ElectronicaLAGO.png, id=112, 685.56125pt x 331.2375pt>
+File: ElectronicaLAGO.png Graphic file (type png)
+
+<use ElectronicaLAGO.png>
+Package pdftex.def Info: ElectronicaLAGO.png used on input line 309.
+(pdftex.def)             Requested size: 341.11533pt x 164.81976pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[20 <./PhotonisXP1802.png>] <PulsoADC.png, id=117, 344.28625pt x 269.005pt>
+File: PulsoADC.png Graphic file (type png)
+
+<use PulsoADC.png>
+Package pdftex.def Info: PulsoADC.png used on input line 321.
+(pdftex.def)             Requested size: 213.19627pt x 166.58023pt.
+ [21 <./ElectronicaLAGO.png> <./PulsoADC.png>]
+<WCDSalazar.png, id=121, 544.0325pt x 329.23pt>
+File: WCDSalazar.png Graphic file (type png)
+ <use WCDSalazar.png>
+Package pdftex.def Info: WCDSalazar.png used on input line 340.
+(pdftex.def)             Requested size: 341.11533pt x 206.4414pt.
+
+Underfull \vbox (badness 3078) has occurred while \output is active []
+
+ [22 <./WCDSalazar.png>] <RiseTimeAmpSalazar.png, id=125, 388.45125pt x 272.016
+25pt>
+File: RiseTimeAmpSalazar.png Graphic file (type png)
+
+<use RiseTimeAmpSalazar.png>
+Package pdftex.def Info: RiseTimeAmpSalazar.png used on input line 353.
+(pdftex.def)             Requested size: 341.11533pt x 238.8728pt.
+
+<HistogramaNahuelito.png, id=126, 595.22375pt x 443.6575pt>
+File: HistogramaNahuelito.png Graphic file (type png)
+
+<use HistogramaNahuelito.png>
+Package pdftex.def Info: HistogramaNahuelito.png used on input line 365.
+(pdftex.def)             Requested size: 341.11533pt x 254.25487pt.
+ [23 <./RiseTimeAmpSalazar.png>] [24 <./HistogramaNahuelito.png>] [25] <UNIFIED
+.png, id=137, 462.72874pt x 441.65pt>
+File: UNIFIED.png Graphic file (type png)
+
+<use UNIFIED.png>
+Package pdftex.def Info: UNIFIED.png used on input line 407.
+(pdftex.def)             Requested size: 213.19627pt x 203.48492pt.
+ [26 <./UNIFIED.png>]
+Cap\'itulo 6.
+<GeometriaG4.png, id=142, 445.665pt x 377.41pt>
+File: GeometriaG4.png Graphic file (type png)
+ <use GeometriaG4.png>
+Package pdftex.def Info: GeometriaG4.png used on input line 439.
+(pdftex.def)             Requested size: 341.11533pt x 288.87318pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[27
+
+] [28 <./GeometriaG4.png>] <ThetaDist.png, id=150, 578.16pt x 433.62pt>
+File: ThetaDist.png Graphic file (type png)
+
+<use ThetaDist.png>
+Package pdftex.def Info: ThetaDist.png used on input line 486.
+(pdftex.def)             Requested size: 426.39255pt x 319.79529pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[29] [30 <./ThetaDist.png>] <Talishte.jpg, id=159, 525.965pt x 754.82pt>
+File: Talishte.jpg Graphic file (type jpg)
+
+<use Talishte.jpg>
+Package pdftex.def Info: Talishte.jpg used on input line 512.
+(pdftex.def)             Requested size: 149.23999pt x 214.16997pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<ConfiguracionFinal.jpg, id=160, 803.0pt x 1069.9975pt>
+File: ConfiguracionFinal.jpg Graphic file (type jpg)
+
+<use ConfiguracionFinal.jpg>
+Package pdftex.def Info: ConfiguracionFinal.jpg used on input line 523.
+(pdftex.def)             Requested size: 213.19627pt x 284.08678pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[31] [32 <./Talishte.jpg>] [33 <./ConfiguracionFinal.jpg>] [34
+
+]
+Cap\'itulo 7.
+<PulsosCaracteristicos.png, id=173, 578.16pt x 433.62pt>
+File: PulsosCaracteristicos.png Graphic file (type png)
+
+<use PulsosCaracteristicos.png>
+Package pdftex.def Info: PulsosCaracteristicos.png used on input line 545.
+(pdftex.def)             Requested size: 426.39255pt x 319.79529pt.
+ [35 <./PulsosCaracteristicos.png>]
+<RiseTimeAmp.png, id=179, 578.16pt x 433.62pt>
+File: RiseTimeAmp.png Graphic file (type png)
+ <use RiseTimeAmp.png>
+Package pdftex.def Info: RiseTimeAmp.png used on input line 570.
+(pdftex.def)             Requested size: 426.39255pt x 319.79529pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [36]
+[37 <./RiseTimeAmp.png>]
+<DetectadosVsEnergia.png, id=187, 578.16pt x 433.62pt>
+File: DetectadosVsEnergia.png Graphic file (type png)
+
+<use DetectadosVsEnergia.png>
+Package pdftex.def Info: DetectadosVsEnergia.png used on input line 594.
+(pdftex.def)             Requested size: 426.39255pt x 319.79529pt.
+ [38 <./DetectadosVsEnergia.png>]
+<ADCqCorrida1.png, id=192, 578.16pt x 433.62pt>
+File: ADCqCorrida1.png Graphic file (type png)
+ <use ADCqCorrida1.png>
+Package pdftex.def Info: ADCqCorrida1.png used on input line 620.
+(pdftex.def)             Requested size: 298.47348pt x 223.84943pt.
+ [39 <./ADCqCorrida1.png>] <HistogramasAll.png, id=197, 594.0594pt x 590.4459pt
+>
+File: HistogramasAll.png Graphic file (type png)
+
+<use HistogramasAll.png>
+Package pdftex.def Info: HistogramasAll.png used on input line 631.
+(pdftex.def)             Requested size: 383.75069pt x 381.4248pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40] [41 <./HistogramasAll.png>] [42
+
+]
+Cap\'itulo 8.
+[43] [44
+
+]
+Missing character: There is no ¬ in font cmti10!
+Missing character: There is no Æ in font cmti10!
+
+Underfull \hbox (badness 4927) in paragraph at lines 698--699
+\OT1/cmr/m/n/10 dos Unidos. Disponible en: http://www.dupont.com/content/dam/as
+sets/products-and-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 698--699
+\OT1/cmr/m/n/10 services/construction-materials/assets/DuPont[]Tyvek[]Spunbond[
+]Polyethylene[]MSDS[]2009-04-
+ []
+
+[45]
+Missing character: There is no ‚ in font cmti10!
+Missing character: There is no Ä in font cmti10!
+Missing character: There is no ì in font cmti10!
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
+[]\OT1/cmr/m/n/10 Gumplinger, P. 2002. \OT1/cmr/m/it/10 Op-ti-cal Pho-ton Pro-c
+esses in GEANT4\OT1/cmr/m/n/10 . Users'
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 706--707
+\OT1/cmr/m/n/10 Work-shop en SLAC, Uni-ver-si-dad de Stan-ford. Disponible en:
+ []
+
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 722--723
+[]\OT1/cmr/m/n/10 Photonis. (SF). \OT1/cmr/m/it/10 Pho-to-mul-ti-plier XP1802 D
+atasheet\OT1/cmr/m/n/10 . Disponible en:
+ []
+
+
+Underfull \hbox (badness 2245) in paragraph at lines 722--723
+\OT1/cmr/m/n/10 http://www.qsl.net/k0ff/016%20Manuals/PMT/Photonis/XP1802.pdf [
+con ac-ceso el 2 de
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+[]\OT1/cmr/m/n/10 Seo, E. et al. 2004. \OT1/cmr/m/it/10 Cosmis-ray en-er-get-ic
+s and mass (CREAM) bal-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 724--725
+\OT1/cmr/m/it/10 loon project\OT1/cmr/m/n/10 . Ad-vances in Space Re-search 33.
+ Disponible en:
+ []
+
+
+Underfull \hbox (badness 5119) in paragraph at lines 724--725
+\OT1/cmr/m/n/10 http://cosmicray.umd.edu/cream/images/stories/files/frontpage/s
+eo.pdf [con ac-ceso el 24
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ì in font cmr10!
+[47] [48
+
+]
+Cap\'itulo 10.
+
+Overfull \hbox (10.361pt too wide) in paragraph at lines 750--764
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [49]
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2013/08/26 1.5b listings language file
+)
+(./DistFotonesPres.py
+LaTeX Font Info:    Font shape `OMS/cmr/m/it' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 1.
+ [50]
+Overfull \hbox (17.61197pt too wide) in paragraph at lines 21--22
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 33.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 33.
+
+Overfull \hbox (47.61227pt too wide) in paragraph at lines 43--44
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [51]
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ≠ in font cmti10!
+
+Overfull \hbox (5.61185pt too wide) in paragraph at lines 65--66
+[][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (47.61227pt too wide) in paragraph at lines 79--80
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Overfull \hbox (41.61221pt too wide) in paragraph at lines 81--799
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [52]
+<FotonesMuonVerticalG4.png, id=241, 578.16pt x 590.4459pt>
+File: FotonesMuonVerticalG4.png Graphic file (type png)
+
+<use FotonesMuonVerticalG4.png>
+Package pdftex.def Info: FotonesMuonVerticalG4.png used on input line 806.
+(pdftex.def)             Requested size: 341.11533pt x 348.36006pt.
+ [53 <./FotonesMuonVerticalG4.png>]
+(./PulsosCaract.py
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ≥ in font cmti10!
+
+Overfull \hbox (41.61221pt too wide) in paragraph at lines 13--14
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (47.61227pt too wide) in paragraph at lines 14--15
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[54]
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ° in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ° in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ≠ in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ≥ in font cmti10!
+
+Overfull \hbox (41.61221pt too wide) in paragraph at lines 33--34
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (11.61191pt too wide) in paragraph at lines 34--35
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (35.61215pt too wide) in paragraph at lines 37--38
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ≥ in font cmti10!
+
+Overfull \hbox (23.61203pt too wide) in paragraph at lines 41--42
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (29.61209pt too wide) in paragraph at lines 46--47
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55]
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ∫ in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ≥ in font cmti10!
+
+Overfull \hbox (5.61185pt too wide) in paragraph at lines 53--54
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (23.61203pt too wide) in paragraph at lines 58--59
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56]
+<2000Pulsos.png, id=256, 578.16pt x 590.4459pt>
+File: 2000Pulsos.png Graphic file (type png)
+ <use 2000Pulsos.png>
+Package pdftex.def Info: 2000Pulsos.png used on input line 856.
+(pdftex.def)             Requested size: 426.39255pt x 435.45457pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [57 <./2000Pulsos.png>] (./VariablesPulsos.py
+Overfull \hbox (47.61227pt too wide) in paragraph at lines 27--29
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+) [58] (./clasificadorMuones.py
+LaTeX Font Info:    Font shape `OML/cmr/m/it' in size <10> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 20.
+
+Overfull \hbox (71.61252pt too wide) in paragraph at lines 21--22
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Overfull \hbox (65.61246pt too wide) in paragraph at lines 22--24
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+[59]
+Overfull \hbox (71.61252pt too wide) in paragraph at lines 39--40
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [60]
+Overfull \hbox (101.61282pt too wide) in paragraph at lines 95--97
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61])
+(./Picos.py
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ° in font cmti10!
+Missing character: There is no √ in font cmti10!
+Missing character: There is no ° in font cmti10!
+ [62]) [63] (./tesisconpaquete.aux) ) 
+Here is how much of TeX's memory you used:
+ 4023 strings out of 494966
+ 56429 string characters out of 6179559
+ 160135 words of memory out of 5000000
+ 7162 multiletter control sequences out of 15000+600000
+ 6110 words of font info for 22 fonts, out of 8000000 for 9000
+ 40 hyphenation exceptions out of 8191
+ 38i,14n,52p,1739b,1607s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><
+/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmti10.pfb>
+Output written on tesisconpaquete.pdf (71 pages, 2432633 bytes).
+PDF statistics:
+ 321 PDF objects out of 1000 (max. 8388607)
+ 195 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+
