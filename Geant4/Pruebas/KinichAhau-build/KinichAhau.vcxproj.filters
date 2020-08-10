@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\KinichAhau.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\EventAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\HistoManager.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauActionInitialization.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauDetectorConstruction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauPMTHit.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauPhysicsList.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauPhysicsListMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauPrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauPrimaryGeneratorMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauRun.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauRunAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauSensitiveDetector.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauStackingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauSteppingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauSteppingVerbose.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\KinichAhauUserTrackInformation.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\PrimaryGeneratorAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\Run.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\TrackingAction.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pruebasGeant\KinichAhau\src\TrackingMessenger.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\EventAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\HistoManager.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauActionInitialization.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauDetectorConstruction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauPMTHit.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauPhysicsList.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauPhysicsListMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauPrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauPrimaryGeneratorMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauRun.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauRunAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauSensitiveDetector.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauStackingAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauSteppingAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauSteppingVerbose.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\KinichAhauUserTrackInformation.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\PrimaryGeneratorAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\Run.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\TrackingAction.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pruebasGeant\KinichAhau\include\TrackingMessenger.hh">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pruebasGeant\KinichAhau\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F52B0F78-3CCF-35ED-9336-0977105F4110}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{C5D7844C-3ADD-34B4-9859-2A3331040630}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

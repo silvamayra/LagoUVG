@@ -1,0 +1,10 @@
+^D:\PRUEBASGEANT\KINICHAHAU\CMAKELISTS.TXT
+setlocal
+D:\Programs\CMake\bin\cmake.exe -SD:/pruebasGeant/KinichAhau -BD:/pruebasGeant/KinichAhau-build --check-stamp-file D:/pruebasGeant/KinichAhau-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

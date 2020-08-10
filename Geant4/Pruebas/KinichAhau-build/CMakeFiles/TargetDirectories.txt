@@ -1,0 +1,4 @@
+D:/pruebasGeant/KinichAhau-build/CMakeFiles/INSTALL.dir
+D:/pruebasGeant/KinichAhau-build/CMakeFiles/KinichAhau.dir
+D:/pruebasGeant/KinichAhau-build/CMakeFiles/ALL_BUILD.dir
+D:/pruebasGeant/KinichAhau-build/CMakeFiles/ZERO_CHECK.dir

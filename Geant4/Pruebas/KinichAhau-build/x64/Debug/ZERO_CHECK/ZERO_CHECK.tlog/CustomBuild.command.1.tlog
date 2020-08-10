@@ -1,0 +1,10 @@
+^D:\PRUEBASGEANT\KINICHAHAU-BUILD\CMAKEFILES\80A2F5735B88361E2B1400E51BB34E33\GENERATE.STAMP.RULE
+setlocal
+D:\Programs\CMake\bin\cmake.exe -SD:/pruebasGeant/KinichAhau -BD:/pruebasGeant/KinichAhau-build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/pruebasGeant/KinichAhau-build/KinichAhau.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

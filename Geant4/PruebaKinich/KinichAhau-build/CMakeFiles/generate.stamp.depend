@@ -1,0 +1,77 @@
+# CMake generation dependency list for this directory.
+C:/Geant4/install/lib/Geant4-10.6.2/Geant4Config.cmake
+C:/Geant4/install/lib/Geant4-10.6.2/Geant4ConfigVersion.cmake
+C:/Geant4/install/lib/Geant4-10.6.2/Geant4LibraryDepends-debug.cmake
+C:/Geant4/install/lib/Geant4-10.6.2/Geant4LibraryDepends.cmake
+C:/Geant4/install/lib/Geant4-10.6.2/Geant4PackageCache.cmake
+C:/Geant4/install/lib/Geant4-10.6.2/Modules/IntelCompileFeatures.cmake
+C:/Geant4/install/lib/Geant4-10.6.2/Modules/MSVCCompileFeatures.cmake
+C:/Geant4/install/lib/Geant4-10.6.2/UseGeant4.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake
+C:/Qt/5.15.0/msvc2019_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/3.18.0-rc3/CMakeCCompiler.cmake
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/3.18.0-rc3/CMakeCXXCompiler.cmake
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/3.18.0-rc3/CMakeRCCompiler.cmake
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/3.18.0-rc3/CMakeSystem.cmake
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/CMakeLists.txt
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/KinichAhau.in
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/KinichAhau.out
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/gui.mac
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/icons.mac
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/optPhoton.mac
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/run.png
+C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/vis.mac
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeCInformation.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeCXXInformation.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeCommonLanguageInclude.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeFindDependencyMacro.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeGenericSystem.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeInitializeConfigs.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeLanguageInformation.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeParseArguments.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeRCInformation.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeSystemSpecificInformation.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Compiler/MSVC-C.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Compiler/MSVC-CXX.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/FindOpenGL.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/FindPackageHandleStandardArgs.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/FindPackageMessage.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Platform/Windows-MSVC-C.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Platform/Windows-MSVC.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Platform/Windows.cmake
+C:/Users/Home/Downloads/Software downloads/cmake-3.18.0-rc3-win64-x64/share/cmake-3.18/Modules/Platform/WindowsPaths.cmake

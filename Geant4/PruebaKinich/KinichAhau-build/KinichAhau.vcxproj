@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{EEDC2002-9371-341D-B6BD-6CE2A0DB6509}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>KinichAhau</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KinichAhau.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">KinichAhau</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KinichAhau.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">KinichAhau</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KinichAhau.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">KinichAhau</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KinichAhau.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">KinichAhau</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Geant4\install\lib\G4Tree.lib;C:\Geant4\install\lib\G4GMocren.lib;C:\Geant4\install\lib\G4visHepRep.lib;C:\Geant4\install\lib\G4RayTracer.lib;C:\Geant4\install\lib\G4VRML.lib;C:\Geant4\install\lib\G4OpenGL.lib;C:\Geant4\install\lib\G4gl2ps.lib;C:\Geant4\install\lib\G4interfaces.lib;C:\Geant4\install\lib\G4persistency.lib;C:\Geant4\install\lib\G4error_propagation.lib;C:\Geant4\install\lib\G4readout.lib;C:\Geant4\install\lib\G4physicslists.lib;C:\Geant4\install\lib\G4parmodels.lib;C:\Geant4\install\lib\G4FR.lib;C:\Geant4\install\lib\G4vis_management.lib;C:\Geant4\install\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5OpenGLd.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5PrintSupportd.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Widgetsd.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Guid.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Cored.lib;C:\Geant4\install\lib\G4run.lib;C:\Geant4\install\lib\G4event.lib;C:\Geant4\install\lib\G4tracking.lib;C:\Geant4\install\lib\G4processes.lib;C:\Geant4\install\lib\G4analysis.lib;C:\Geant4\install\lib\G4expat.lib;C:\Geant4\install\lib\G4zlib.lib;C:\Geant4\install\lib\G4digits_hits.lib;C:\Geant4\install\lib\G4track.lib;C:\Geant4\install\lib\G4particles.lib;C:\Geant4\install\lib\G4geometry.lib;C:\Geant4\install\lib\G4materials.lib;C:\Geant4\install\lib\G4graphics_reps.lib;C:\Geant4\install\lib\G4intercoms.lib;C:\Geant4\install\lib\G4global.lib;C:\Geant4\install\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/Debug/KinichAhau.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/Debug/KinichAhau.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;NDEBUG;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;NDEBUG;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Geant4\install\lib\G4Tree.lib;C:\Geant4\install\lib\G4GMocren.lib;C:\Geant4\install\lib\G4visHepRep.lib;C:\Geant4\install\lib\G4RayTracer.lib;C:\Geant4\install\lib\G4VRML.lib;C:\Geant4\install\lib\G4OpenGL.lib;C:\Geant4\install\lib\G4gl2ps.lib;C:\Geant4\install\lib\G4interfaces.lib;C:\Geant4\install\lib\G4persistency.lib;C:\Geant4\install\lib\G4error_propagation.lib;C:\Geant4\install\lib\G4readout.lib;C:\Geant4\install\lib\G4physicslists.lib;C:\Geant4\install\lib\G4parmodels.lib;C:\Geant4\install\lib\G4FR.lib;C:\Geant4\install\lib\G4vis_management.lib;C:\Geant4\install\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5OpenGL.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5PrintSupport.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Widgets.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Gui.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Core.lib;C:\Geant4\install\lib\G4run.lib;C:\Geant4\install\lib\G4event.lib;C:\Geant4\install\lib\G4tracking.lib;C:\Geant4\install\lib\G4processes.lib;C:\Geant4\install\lib\G4analysis.lib;C:\Geant4\install\lib\G4expat.lib;C:\Geant4\install\lib\G4zlib.lib;C:\Geant4\install\lib\G4digits_hits.lib;C:\Geant4\install\lib\G4track.lib;C:\Geant4\install\lib\G4particles.lib;C:\Geant4\install\lib\G4geometry.lib;C:\Geant4\install\lib\G4materials.lib;C:\Geant4\install\lib\G4graphics_reps.lib;C:\Geant4\install\lib\G4intercoms.lib;C:\Geant4\install\lib\G4global.lib;C:\Geant4\install\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/Release/KinichAhau.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/Release/KinichAhau.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <FavorSizeOrSpeed>Size</FavorSizeOrSpeed>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;NDEBUG;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;NDEBUG;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Geant4\install\lib\G4Tree.lib;C:\Geant4\install\lib\G4GMocren.lib;C:\Geant4\install\lib\G4visHepRep.lib;C:\Geant4\install\lib\G4RayTracer.lib;C:\Geant4\install\lib\G4VRML.lib;C:\Geant4\install\lib\G4OpenGL.lib;C:\Geant4\install\lib\G4gl2ps.lib;C:\Geant4\install\lib\G4interfaces.lib;C:\Geant4\install\lib\G4persistency.lib;C:\Geant4\install\lib\G4error_propagation.lib;C:\Geant4\install\lib\G4readout.lib;C:\Geant4\install\lib\G4physicslists.lib;C:\Geant4\install\lib\G4parmodels.lib;C:\Geant4\install\lib\G4FR.lib;C:\Geant4\install\lib\G4vis_management.lib;C:\Geant4\install\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5OpenGL.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5PrintSupport.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Widgets.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Gui.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Core.lib;C:\Geant4\install\lib\G4run.lib;C:\Geant4\install\lib\G4event.lib;C:\Geant4\install\lib\G4tracking.lib;C:\Geant4\install\lib\G4processes.lib;C:\Geant4\install\lib\G4analysis.lib;C:\Geant4\install\lib\G4expat.lib;C:\Geant4\install\lib\G4zlib.lib;C:\Geant4\install\lib\G4digits_hits.lib;C:\Geant4\install\lib\G4track.lib;C:\Geant4\install\lib\G4particles.lib;C:\Geant4\install\lib\G4geometry.lib;C:\Geant4\install\lib\G4materials.lib;C:\Geant4\install\lib\G4graphics_reps.lib;C:\Geant4\install\lib\G4intercoms.lib;C:\Geant4\install\lib\G4global.lib;C:\Geant4\install\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/MinSizeRel/KinichAhau.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/MinSizeRel/KinichAhau.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) -Zm200</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_CONSOLE;_WIN32;WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;NDEBUG;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_CONSOLE;_WIN32;OS;XPNET;_CRT_SECURE_NO_DEPRECATE;_WINDOWS;NDEBUG;G4INTY_USE_WIN32;G4UI_USE_WIN32;G4INTY_USE_QT;G4UI_USE_QT;G4VIS_USE_OPENGLQT;G4VIS_USE_OPENGL;G4LIB_BUILD_DLL;QT_GUI_LIB;QT_CORE_LIB;QT_NO_DEBUG;QT_WIDGETS_LIB;QT_PRINTSUPPORT_LIB;QT_OPENGL_LIB;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include;C:\Geant4\install\include\Geant4;C:\Qt\5.15.0\msvc2019_64\include;C:\Qt\5.15.0\msvc2019_64\include\QtGui;C:\Qt\5.15.0\msvc2019_64\include\QtANGLE;C:\Qt\5.15.0\msvc2019_64\include\QtCore;C:\Qt\5.15.0\msvc2019_64\.\mkspecs\win32-msvc;C:\Qt\5.15.0\msvc2019_64\include\QtWidgets;C:\Qt\5.15.0\msvc2019_64\include\QtPrintSupport;C:\Qt\5.15.0\msvc2019_64\include\QtOpenGL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Geant4\install\lib\G4Tree.lib;C:\Geant4\install\lib\G4GMocren.lib;C:\Geant4\install\lib\G4visHepRep.lib;C:\Geant4\install\lib\G4RayTracer.lib;C:\Geant4\install\lib\G4VRML.lib;C:\Geant4\install\lib\G4OpenGL.lib;C:\Geant4\install\lib\G4gl2ps.lib;C:\Geant4\install\lib\G4interfaces.lib;C:\Geant4\install\lib\G4persistency.lib;C:\Geant4\install\lib\G4error_propagation.lib;C:\Geant4\install\lib\G4readout.lib;C:\Geant4\install\lib\G4physicslists.lib;C:\Geant4\install\lib\G4parmodels.lib;C:\Geant4\install\lib\G4FR.lib;C:\Geant4\install\lib\G4vis_management.lib;C:\Geant4\install\lib\G4modeling.lib;glu32.lib;opengl32.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5OpenGL.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5PrintSupport.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Widgets.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Gui.lib;C:\Qt\5.15.0\msvc2019_64\lib\Qt5Core.lib;C:\Geant4\install\lib\G4run.lib;C:\Geant4\install\lib\G4event.lib;C:\Geant4\install\lib\G4tracking.lib;C:\Geant4\install\lib\G4processes.lib;C:\Geant4\install\lib\G4analysis.lib;C:\Geant4\install\lib\G4expat.lib;C:\Geant4\install\lib\G4zlib.lib;C:\Geant4\install\lib\G4digits_hits.lib;C:\Geant4\install\lib\G4track.lib;C:\Geant4\install\lib\G4particles.lib;C:\Geant4\install\lib\G4geometry.lib;C:\Geant4\install\lib\G4materials.lib;C:\Geant4\install\lib\G4graphics_reps.lib;C:\Geant4\install\lib\G4intercoms.lib;C:\Geant4\install\lib\G4global.lib;C:\Geant4\install\lib\G4clhep.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64 /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/RelWithDebInfo/KinichAhau.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/RelWithDebInfo/KinichAhau.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\bin\cmake.exe" -SC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau -BC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build --check-stamp-file C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Geant4\install\lib\Geant4-10.6.2\Geant4Config.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4ConfigVersion.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends-debug.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4PackageCache.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\IntelCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\MSVCCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\UseGeant4.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeRCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeSystem.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.in;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.out;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\gui.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\icons.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\optPhoton.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\run.png;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\vis.mac;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeFindDependencyMacro.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\bin\cmake.exe" -SC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau -BC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build --check-stamp-file C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Geant4\install\lib\Geant4-10.6.2\Geant4Config.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4ConfigVersion.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends-debug.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4PackageCache.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\IntelCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\MSVCCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\UseGeant4.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeRCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeSystem.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.in;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.out;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\gui.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\icons.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\optPhoton.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\run.png;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\vis.mac;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeFindDependencyMacro.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\bin\cmake.exe" -SC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau -BC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build --check-stamp-file C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Geant4\install\lib\Geant4-10.6.2\Geant4Config.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4ConfigVersion.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends-debug.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4PackageCache.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\IntelCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\MSVCCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\UseGeant4.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeRCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeSystem.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.in;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.out;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\gui.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\icons.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\optPhoton.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\run.png;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\vis.mac;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeFindDependencyMacro.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\bin\cmake.exe" -SC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau -BC:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build --check-stamp-file C:/Users/Home/Documents/Tesis/LagoUVG/Geant4/PruebaKinich/KinichAhau-build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Geant4\install\lib\Geant4-10.6.2\Geant4Config.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4ConfigVersion.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends-debug.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4LibraryDepends.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Geant4PackageCache.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\IntelCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\Modules\MSVCCompileFeatures.cmake;C:\Geant4\install\lib\Geant4-10.6.2\UseGeant4.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5OpenGL\Qt5OpenGLConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupportConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5PrintSupport\Qt5PrintSupport_QWindowsPrinterSupportPlugin.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;C:\Qt\5.15.0\msvc2019_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeCXXCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeRCCompiler.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\3.18.0-rc3\CMakeSystem.cmake;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.in;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.out;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\gui.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\icons.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\optPhoton.mac;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\run.png;C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\vis.mac;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCXXInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeFindDependencyMacro.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeGenericSystem.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeInitializeConfigs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeLanguageInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeParseArguments.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeRCInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindOpenGL.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageHandleStandardArgs.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\FindPackageMessage.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows-MSVC.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\Windows.cmake;C:\Users\Home\Downloads\Software downloads\cmake-3.18.0-rc3-win64-x64\share\cmake-3.18\Modules\Platform\WindowsPaths.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\KinichAhau.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauActionInitialization.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauDetectorConstruction.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauPMTHit.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauPhysicsList.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauPhysicsListMessenger.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauPrimaryGeneratorAction.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauPrimaryGeneratorMessenger.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauRunAction.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauSensitiveDetector.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauStackingAction.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauSteppingAction.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauSteppingVerbose.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\KinichAhauUserTrackInformation.cc" />
+    <ClCompile Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\src\PhysicsList.cc" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\DetectorConstruction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\EventAction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\HistoManager.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauActionInitialization.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauDetectorConstruction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauPMTHit.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauPhysicsList.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauPhysicsListMessenger.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauPrimaryGeneratorAction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauPrimaryGeneratorMessenger.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauRun.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauRunAction (2).hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauRunAction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauSensitiveDetector.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauStackingAction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauSteppingAction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauSteppingVerbose.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\KinichAhauUserTrackInformation.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\PhysListEmStandard.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\PhysicsList.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\PhysicsListMessenger.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\PrimaryGeneratorAction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\Run.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\ScoreSpecies.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\TrackingAction.hh" />
+    <ClInclude Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau\include\TrackingMessenger.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Home\Documents\Tesis\LagoUVG\Geant4\PruebaKinich\KinichAhau-build\ZERO_CHECK.vcxproj">
+      <Project>{2712EB74-34E2-3513-B9AC-79B4187970F7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

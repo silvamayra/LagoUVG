@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\pruebasGeant\KinichAhau-build\CMakeFiles\80a2f5735b88361e2b1400e51bb34e33\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{48760C8E-88D2-36BB-B915-95D88D67BA82}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
